@@ -105,17 +105,25 @@ Both Lambda functions send HTML-formatted emails:
 ###  Test Event Template
 ```
 {
-  "source": "aws.health",
+  "version": "0",
+  "id": "test-event-1234",
   "detail-type": "AWS Health Event",
+  "source": "aws.health",
+  "account": "ACCOUNT_NUMBER",
+  "time": "2025-02-02T04:05:00Z",
+  "region": "us-east-1",
+  "resources": [],
   "detail": {
+    "eventArn": "arn:aws:health:us-east-1::event/AWS_RISK_CREDENTIALS_EXPOSED_TEST",
     "service": "RISK",
     "eventTypeCode": "AWS_RISK_CREDENTIALS_EXPOSED",
-    "additionalDetails": {
-      "AccessKeyId": "AKIAXXXXXXXXXXXXXXXX"
-    },
+    "eventTypeCategory": "issue",
     "affectedEntities": [
       {
-        "entityValue": "arn:aws:iam::123456789012:user/test-user"
+        "entityValue": "arn:aws:iam::123456789:user/test-user",
+        "tags": {
+          "accessKeyId": "AKIAXXXXXXXXXXXXXXXX"
+        }
       }
     ]
   }
