@@ -182,11 +182,4 @@ Both Lambda functions send HTML-formatted emails:
 4. Follow coding standards
 
 ## License
-[Specify License]
-
-
-
-The README should be kept up-to-date with any changes to the solution's architecture or deployment process.
-
----
-Answer from Perplexity: pplx.ai/share
+MIT 0
