@@ -49,7 +49,7 @@ This solution provides automated detection and response to exposed AWS access ke
 
 ### 1. Clone the Repository
 ```
-git clone [repository-url]
+git clone https://github.com/kgautams-123/notify-and-remediate-exposed-access-key.git
 cd aws-access-key-exposure-handler
 ```
 
@@ -185,24 +185,7 @@ aws stepfunctions list-executions --state-machine-arn <state-machine-arn>
 ## License
 [Specify License]
 
-## Support
-[Provide Support Information]
-```
 
-This README provides:
-1. Clear deployment instructions
-2. Configuration options
-3. Testing procedures
-4. Troubleshooting guides
-5. Security considerations
-6. Monitoring recommendations
-
-Remember to:
-1. Add actual repository URL
-2. Include architecture diagram
-3. Specify license details
-4. Add support contact information
-5. Update any environment-specific instructions
 
 The README should be kept up-to-date with any changes to the solution's architecture or deployment process.
 
