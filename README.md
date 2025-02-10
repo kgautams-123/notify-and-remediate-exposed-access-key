@@ -50,7 +50,7 @@ This solution provides automated detection and response to exposed AWS access ke
 ### 1. Clone the Repository
 ```
 git clone https://github.com/kgautams-123/notify-and-remediate-exposed-access-key.git
-cd aws-access-key-exposure-handler
+cd notify-and-remediate-exposed-access-key
 ```
 
 ### 2. Configure Parameters
